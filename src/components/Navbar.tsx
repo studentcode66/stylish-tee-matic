@@ -29,8 +29,8 @@ export default function Navbar() {
           
           <div className="hidden md:flex items-center space-x-8">
             <Link to="/shop" className="hover:text-primary transition-colors">Shop</Link>
-            <Link to="#" className="hover:text-primary transition-colors">About</Link>
-            <Link to="#" className="hover:text-primary transition-colors">Contact</Link>
+            <Link to="/about" className="hover:text-primary transition-colors">About</Link>
+            <Link to="/contact" className="hover:text-primary transition-colors">Contact</Link>
           </div>
 
           <div className="flex items-center space-x-4">
@@ -57,8 +57,8 @@ export default function Navbar() {
           <div className="container mx-auto px-6 py-4">
             <div className="flex flex-col space-y-4">
               <Link to="/shop" className="hover:text-primary transition-colors">Shop</Link>
-              <Link to="#" className="hover:text-primary transition-colors">About</Link>
-              <Link to="#" className="hover:text-primary transition-colors">Contact</Link>
+              <Link to="/about" className="hover:text-primary transition-colors">About</Link>
+              <Link to="/contact" className="hover:text-primary transition-colors">Contact</Link>
             </div>
           </div>
         </div>

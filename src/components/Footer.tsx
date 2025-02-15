@@ -4,7 +4,7 @@ export default function Footer() {
     <footer className="py-16">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8">
-          <div>
+          <div className="animate-fade-up [animation-delay:0ms]">
             <h3 className="font-playfair text-2xl font-bold mb-6">
               SHIRTS<span className="text-primary">MATTER</span>
             </h3>
@@ -13,16 +13,22 @@ export default function Footer() {
             </p>
           </div>
           
-          <div>
+          <div className="animate-fade-up [animation-delay:200ms]">
             <h4 className="font-bold mb-6">Quick Links</h4>
             <ul className="space-y-4">
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Shop</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">About</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Contact</a></li>
+              <li>
+                <a href="#" className="text-muted-foreground hover:text-primary transition-colors duration-300">Shop</a>
+              </li>
+              <li>
+                <a href="#" className="text-muted-foreground hover:text-primary transition-colors duration-300">About</a>
+              </li>
+              <li>
+                <a href="#" className="text-muted-foreground hover:text-primary transition-colors duration-300">Contact</a>
+              </li>
             </ul>
           </div>
           
-          <div>
+          <div className="animate-fade-up [animation-delay:400ms]">
             <h4 className="font-bold mb-6">Contact</h4>
             <ul className="space-y-4 text-muted-foreground">
               <li>1234 Fashion Street</li>
